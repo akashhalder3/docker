@@ -11,4 +11,4 @@ services:
   web:
     image: httpd
     volumes:
-      - ./html:/usr/local/apache2/htdocs/
+      - ./ogistic:/usr/local/apache2/htdocs/
